@@ -27,13 +27,13 @@ This exists as a seperate project so as to conform to the MVVM Architecture reco
 
 `AUE Sample` contains the main code for Android Platform, including all the Activities, and code related by it.
 
-### NuGet Package Dependencies
-#### AUELibrary
-- Microsoft.Net.Http
-- Newtonsoft.Json
-#### AUE Sample
-- Xamarin.Firebase.Common
-- Xamarin.GooglePlayServices.Basement    
+### - NuGet Package Dependencies
+  - #### AUELibrary
+    - Microsoft.Net.Http
+    - Newtonsoft.Json
+  - #### AUE Sample
+    - Xamarin.Firebase.Common
+    - Xamarin.GooglePlayServices.Basement    
 
 ## Project Structure
 ### - AUE Sample:
