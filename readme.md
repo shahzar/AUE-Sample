@@ -35,3 +35,18 @@ This exists as a seperate project so as to conform to the MVVM Architecture reco
 - Xamarin.Firebase.Common
 - Xamarin.GooglePlayServices.Basement    
 
+## Project Structure
+### - AUE Sample:
+- Activities
+  - `MainActivity` contains the main launcher activity
+  - `MessageActivity` contains the GCM based chat
+  - `WeatherActivity` displays the Weather Data of a hard coded location
+- Broadcast receiver
+  - `MessageBroadcastReceiver` handles broadcast message sent by `CustomFirebaseMessagingService`
+- GCM Handlers
+  - `CustomFirebaseMessagingService` handles incoming push messages
+  - `CustomFirebaseIIDService` handles Firebase initialization
+- View Adapters
+  - `MessagesListAdapter` handles the messages list found in `MessageActivity` 
+- Util 
+  - `ImageHelper` helper class to download Image Bitmap from URL (Not yet used in the project)
